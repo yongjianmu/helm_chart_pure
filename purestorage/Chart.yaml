@@ -1,0 +1,11 @@
+name: pure
+version: 0.1.1
+description: Pure Storage K8S Plugin
+keywords:
+- provisioner
+- flexvolume
+sources:
+- https://github.com/purestorage/k8s
+maintainers:
+- name: Yongjian Mu 
+  email: ymu@purestorage.com

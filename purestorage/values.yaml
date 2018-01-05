@@ -1,0 +1,11 @@
+image:
+  name: purestorage/k8s
+  tag: 1.2
+  pullPolicy: IfNotPresent
+
+daemonset:
+  tolerations: []
+
+clusterrolebinding:
+  roleref:
+    name: system:persistent-volume-provisioner 
